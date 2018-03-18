@@ -196,8 +196,9 @@ GameObject:
   - component: {fileID: 982355772}
   - component: {fileID: 982355771}
   - component: {fileID: 982355770}
+  - component: {fileID: 982355773}
   m_Layer: 0
-  m_Name: New Sprite
+  m_Name: Archer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -285,6 +286,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &982355773
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 982355769}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1a77610f6b25a7e41b888cdd4e479a71, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1147130224
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,6 +466,7 @@ GameObject:
   - component: {fileID: 1298309988}
   - component: {fileID: 1298309987}
   - component: {fileID: 1298309989}
+  - component: {fileID: 1298309990}
   m_Layer: 0
   m_Name: background - fairy forest
   m_TagString: Untagged
@@ -537,6 +556,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 46.03, y: 30}
   m_EdgeRadius: 0
+--- !u!95 &1298309990
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1298309986}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 941ee0aed0ef20348aa2305249494944, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1841556910
 GameObject:
   m_ObjectHideFlags: 0
